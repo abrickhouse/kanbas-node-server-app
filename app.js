@@ -9,7 +9,7 @@ const app = express();
 app.use(
  cors({
   credentials: true,
-  origin: process.env.FRONTEND_URL, "https://a5--unique-sunburst-3816aa.netlify.app/",
+  origin: process.env.FRONTEND_URL,
  })
 );
 app.use(express.json());
